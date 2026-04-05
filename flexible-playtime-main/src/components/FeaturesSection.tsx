@@ -36,11 +36,11 @@ const FeaturesSection = () => {
   }, []);
 
   return (
-    <section className="py-20 px-4">
-      <div className="max-w-5xl mx-auto">
-        <h2 className="font-heading text-3xl md:text-4xl font-bold text-center mb-12">
-          Why Play <span className="text-gradient">With Us</span>
-        </h2>
+    <section id="features" className="py-20 px-4">
+  <div className="max-w-5xl mx-auto">
+    <h2 className="font-heading text-3xl md:text-4xl font-bold text-center mb-12">
+      Why Play <span className="text-gradient">With Us</span>
+    </h2>
 
         {/* Desktop grid */}
         <div className="hidden sm:grid grid-cols-2 lg:grid-cols-4 gap-4">
