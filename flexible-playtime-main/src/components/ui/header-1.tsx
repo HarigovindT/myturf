@@ -16,7 +16,7 @@ export function Header() {
 	const links = [
 		{ label: 'Features', href: '#features' },
 		{ label: 'Book Now', href: '#booking' },
-		{ label: 'My Bookings', href: '#my-bookings' },
+		{ label: 'My Bookings', href: '#/my-bookings' },
 	];
 
 	React.useEffect(() => {
